@@ -152,6 +152,27 @@
 				font-size: 0.875rem;
 			}
 		}
+
+
+		@media screen and (max-width: 600px) {
+  #ashpic  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 580px){
+	.ftco-about{
+		
+		margin-left: 50px;
+	
+	}
+}
+@media screen and (max-width: 580px){
+	#ak{
+		
+		margin-top: 500px;
+	}
+}
 	</style>
 
 
@@ -188,7 +209,7 @@
 						data-scrollax-parent="true">
 						<div class="one-forth d-flex align-items-center ftco-animate"
 							data-scrollax="properties: { translateY: '70%' }">
-							<div class="text">
+							<div id="ak" class="text" >
 								<span class="subheading">Hello!</span>
 								<h1 class="mb-4 mt-3">I'm <span>Alam Sajjad</span></h1>
 								<!-- Element to contain animated typing -->
@@ -269,11 +290,11 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 										<div class="about-img">
-											<img src="ash.jpg" class="img-fluid rounded b-shadow-a" alt="" style="width: 800px; height: 200px;">
+											<img src="ash.jpg" class="img-fluid rounded b-shadow-a" alt="" id="ashpic" style="width: 800px; height: 200px;">
 										</div>
 									</div>
 									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
+									<div class="col-sm-6 col-md-7" class="aboutt" >
 										<div class="about-info">
 											<p><span class="title-s">Name: </span> <span>Alam Sajjad</span></p>
 											<p><span class="title-s">Role: </span> <span>Web Developer</span>
